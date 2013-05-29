@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40c93458-6744-4a62-9508-18e074e2d9f4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{72c85801-a29e-4c16-af63-f32171624420}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dockingwindows">
+      <UniqueIdentifier>{87bdd824-5e31-4bb2-983a-c776c065e476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tabctrls">
+      <UniqueIdentifier>{dfba1137-b87d-4d89-ada5-51ac37676aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dlgcontainer">
+      <UniqueIdentifier>{42a99428-91d5-47c8-85bc-4ddc9fcbc4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\APIs">
+      <UniqueIdentifier>{336443bf-b2c4-4975-b435-a0e73146b109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\taskbaricon">
+      <UniqueIdentifier>{ef72537f-6c8d-4b28-85cf-1ba9bdffe63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\propertylist">
+      <UniqueIdentifier>{f38b7b03-98d1-477a-952b-6f9b72756f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\asyncmessagepump">
+      <UniqueIdentifier>{e5241dbd-eca8-4949-a706-e51945af4071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ReUsable">
+      <UniqueIdentifier>{371506c5-8436-4ab1-8000-e125f92dadd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\commandbarxp">
+      <UniqueIdentifier>{59c80dc2-1efd-4e72-bf9c-0d4bc11956e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HydraControl">
+      <UniqueIdentifier>{99e700ea-30d8-4ed3-b36e-4cec763aae37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wtlmisc">
+      <UniqueIdentifier>{aff743ed-e1ef-4095-b8c7-f40fce80f362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\altered_wtl_files">
+      <UniqueIdentifier>{a14066b9-077e-49aa-9e46-47a05a8e70dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\treelist">
+      <UniqueIdentifier>{491cc6da-06cd-44d1-b11a-d976e2bc890c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{58d9f8dd-53ee-4af2-a416-1a37252a2494}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Reference Docs">
+      <UniqueIdentifier>{329e9e39-e596-4427-a11c-342f063b5392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{a931c387-1505-4b12-b792-92f5df3b0d57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNetworkDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelPropertiesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCCTransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DNSResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBuddyGroupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditNotificationDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditServerDetailsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLogFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FavoritesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HidingMDIWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HydraIRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Identd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_BuddyGroupsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_CommandProfilesPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_FiltersPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_HighlightingPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_IdentitiesPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_LoggingPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_MessagesPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_MiscPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefs_NotificationsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextQueueFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transfers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransfersFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentityDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HydraControls\HydraPaneContainer.cpp">
+      <Filter>Header Files\HydraControl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\HydraControls\HydraSplitter.cpp">
+      <Filter>Header Files\HydraControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNetworkDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelPropertiesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCCTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dllversion\dllversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DNSResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBuddyGroupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditNotificationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditServerDetailsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLogFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FavoritesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FixedMDIChild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FixedMDICommandBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HidingMDIWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraIRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HydraIRCCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HydraIRCTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Identd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="irc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MRUMDITab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_BuddyGroupsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_CommandProfilesPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_FiltersPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_HighlightingPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_IdentitiesPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_LoggingPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_MessagesPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_MiscPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefs_NotificationsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQueueFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransfersFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserIdentityDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\dbstate.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DDTracker.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DockingBox.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DockingFocus.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DockingFrame.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DockingWindow.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DockMisc.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\DWAutoHide.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\dwstate.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\ExtDockingWindow.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\FlyingTabs.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\PackageWindow.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\SimpleSplitterBar.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\ssec.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\sstate.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\TabDockingBox.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\VC7LikeCaption.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dockingwindows\WndFrmPkg.h">
+      <Filter>Header Files\dockingwindows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\atlgdix.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\CustomTabCtrl.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\DotNetTabCtrl.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\DynamicDialogTemplate.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\ListViewNoFlicker.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\PlainTextView.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\SimpleDlgTabCtrls.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\SimpleTabCtrls.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\TabbedDockingWindow.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\TabbedFrame.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\TabbedMDI.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\TabbedMDIMessages.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tabctrls\TabbedMDISave.h">
+      <Filter>Header Files\tabctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dlgcontainer\DlgContainer.h">
+      <Filter>Header Files\dlgcontainer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API_Basic.h">
+      <Filter>Header Files\APIs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API_CommandProcessor.h">
+      <Filter>Header Files\APIs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API_GUI.h">
+      <Filter>Header Files\APIs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\taskbaricon\TaskBarIcon.h">
+      <Filter>Header Files\taskbaricon</Filter>
+    </ClInclude>
+    <ClInclude Include="include\propertylist\PropertyItem.h">
+      <Filter>Header Files\propertylist</Filter>
+    </ClInclude>
+    <ClInclude Include="include\propertylist\PropertyItemEditors.h">
+      <Filter>Header Files\propertylist</Filter>
+    </ClInclude>
+    <ClInclude Include="include\propertylist\PropertyItemImpl.h">
+      <Filter>Header Files\propertylist</Filter>
+    </ClInclude>
+    <ClInclude Include="include\propertylist\PropertyList.h">
+      <Filter>Header Files\propertylist</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asyncmessagepump\ASyncMessagePump.h">
+      <Filter>Header Files\asyncmessagepump</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CBufferedFile.h">
+      <Filter>Header Files\ReUsable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CIDManager.h">
+      <Filter>Header Files\ReUsable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CList.h">
+      <Filter>Header Files\ReUsable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CObjectManager.h">
+      <Filter>Header Files\ReUsable</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commandbarxp\atlctrlxp.h">
+      <Filter>Header Files\commandbarxp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commandbarxp\atlctrlxp2.h">
+      <Filter>Header Files\commandbarxp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HydraControls\HydraPaneContainer.h">
+      <Filter>Header Files\HydraControl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HydraControls\HydraSplitter.h">
+      <Filter>Header Files\HydraControl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gradientlabel\GradientLabel.h">
+      <Filter>Header Files\wtlmisc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\altered_wtl_includes\8.0\atlctrls.h">
+      <Filter>Header Files\altered_wtl_files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\altered_wtl_includes\8.0\atlctrlw.h">
+      <Filter>Header Files\altered_wtl_files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\treelist\TreeListView.h">
+      <Filter>Header Files\treelist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\channel1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\channelm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HydraIRC.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HydraIRCDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00009.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00010.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00011.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00013.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00014.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\serverlist.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tabicons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\transfer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\userlist.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\reference docs\color.txt">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\CTCP.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\dcc.txt">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\Reference Docs\draft-mirashi-url-irc-01.txt">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\Reference Docs\IRC-2 Numeric List.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\Reference Docs\irc-numerics-conflicts.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\rfc1413.txt">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\rfc2810.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\rfc2811.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\rfc2812.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\reference docs\rfc2813.htm">
+      <Filter>Reference Docs</Filter>
+    </None>
+    <None Include="..\SDK\API_Docs.htm">
+      <Filter>SDK</Filter>
+    </None>
+    <None Include="..\CHANGES.TXT" />
+    <None Include="..\DEVELOPER.TXT" />
+    <None Include="..\Docs\Docs.htm" />
+    <None Include="HydraIRC.xml" />
+    <None Include="HydraIRC_Log.txt" />
+    <None Include="..\LICENSE.TXT" />
+    <None Include="Notes.txt" />
+    <None Include="..\Distribution\Release\Readme.txt" />
+    <None Include="..\TODO.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HydraIRC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\HydraIRC.exe.manifest">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>
